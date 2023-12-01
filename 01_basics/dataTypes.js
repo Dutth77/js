@@ -15,7 +15,7 @@ let name ="Dutth"
 let age = 18
 let isLoggedIn = false
 
-// Data Types
+// Data Types [Primitive Values (or) Primitive Data Types]
 
 // number => 2 to power 53
 // bigint 
