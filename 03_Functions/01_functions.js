@@ -27,16 +27,60 @@ const bully = addTwoNumbers(3,4)
 
 
 // *******************************************
-function loginUserMessage(username) {
-    if (!username) {
-        console.log("please enter Username");
-        return
-    }
-    return`${username} just logged in`
+// function loginUserMessage(username) {
+//     if (!username) {
+//         console.log("please enter Username");
+//         return
+//     }
+//     return`${username} just logged in`
+    
+// }
+// console.log(loginUserMessage("Dutth"));
+// console.log(loginUserMessage());
+
+
+function caliculateCartPrice(...num1) {
+
+    return num1
     
 }
-// console.log(loginUserMessage("Dutth"));
-console.log(loginUserMessage());
+
+// console.log(caliculateCartPrice(200, 400, 500,555));
+
+const user={
+    username:"Dutth",
+    price: 199
+}
+function handleobject(anyobject) {
+    console.log(`username ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+// handleobject(user)
+// handleobject({
+//     username: "sam",
+//     price: 399
+// })
+
+// ************************Array Function *********************
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+// Notes
+// ... rest operater
+
+
+
+
+
+
 
 
 // Notes
